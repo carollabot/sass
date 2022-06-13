@@ -194,6 +194,13 @@ main #merch {
     font-size: xx-large;
     margin-top: 15px;
     margin-bottom: 30px; }
+    @media screen and (min-width: 0px) and (max-width: 460px) {
+      main #merch #merchForm {
+        font-size: medium;
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center; } }
     main #merch #merchForm .buttonMerch {
       display: inline;
       color: red;
@@ -204,6 +211,9 @@ main #merch {
       border: 10px;
       border-color: red;
       border-radius: 5px; }
+      @media screen and (min-width: 0px) and (max-width: 460px) {
+        main #merch #merchForm .buttonMerch {
+          font-size: medium; } }
 
 main div .card {
   transition-property: box-shadow, transform;
@@ -213,10 +223,28 @@ main div .card {
   main div .card:is(:hover, :focus) {
     box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
     transform: translateY(-8px); }
+  @media screen and (min-width: 0px) and (max-width: 460px) {
+    main div .card {
+      width: 75%; } }
   main div .card .card-title {
     font-family: 'Gaegu', cursive;
     text-align: center;
     color: red; }
+
+@media screen and (min-width: 0px) and (max-width: 460px) {
+  main .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; } }
+
+.container div .texto {
+  color: red;
+  font-weight: bold;
+  font-family: 'Gaegu', cursive;
+  display: inline-block;
+  font-size: x-large;
+  text-align: center; }
 
 * {
   padding: 0%;

@@ -53,14 +53,6 @@
 
 /*CONTACT*/
 
-.container div .texto{
-    color: red; 
-    font-weight: bold;
-    font-family: 'Gaegu', cursive;
-    display: inline-block;
-    font-size: x-large;
-    text-align: center;
-}
 
 /*FOOTER*/
 .logo{
@@ -139,24 +131,5 @@ div .card{
 
     /*merch*/
 
-    #merchForm{
-        font-size: medium;
-        display: inline-flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
 
-    .buttonMerch{
-        font-size: medium;
-    }
-    .card{
-        width: 75%;
-    }
-    .col{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
 }
