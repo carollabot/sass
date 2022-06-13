@@ -158,7 +158,7 @@ main .btn {
   .mainConteiner #descarga .logo {
     padding: 0px 10px;
     width: 35px;
-    height: 35px;
+    height: 25px;
     text-decoration: none;
     list-style-type: none;
     font-size: x-large; }
@@ -267,7 +267,7 @@ main div .card {
   text-align: center;
   justify-content: space-evenly; }
   .footer2 .logo {
-    width: 45px;
+    width: 35px;
     height: 30px; }
     .footer2 .logo:is(:hover, :focus) {
       animation: pulse;
