@@ -1,0 +1,46 @@
+main{
+    .carrusel{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .btn-group{
+        padding: 20px 0px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        transition-property: width;
+        transition-duration: 2s;
+    }
+    .parrafo{
+        display: block;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        & li{
+            color: red; 
+            font-weight: bold;
+            font-family: 'Gaegu', cursive;
+            display: inline-block;
+            font-size: x-large;
+            text-align: center;
+        }
+        & .boton{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+    }
+    .btn{
+        color: red; 
+        font-weight: bold;
+        font-family: 'Gaegu', cursive;
+        text-align: center;
+        font-size: x-large;
+        width: auto;
+        transition-timing-function: ease-in-out;
+        &:is(:hover, :focus) {
+            width: 50%;
+        }
+    }
+}

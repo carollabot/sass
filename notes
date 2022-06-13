@@ -137,50 +137,7 @@
     color: red;
 }
 
-/*TOUR*/
-.carrusel{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
 
-.parrafo li{
-    color: red; 
-    font-weight: bold;
-    font-family: 'Gaegu', cursive;
-    display: inline-block;
-    font-size: x-large;
-    text-align: center;
-}
-.btn-group{
-    padding: 20px 0px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    transition-property: width;
-    transition-duration: 2s;
-}
-.btn{
-    color: red; 
-    font-weight: bold;
-    font-family: 'Gaegu', cursive;
-    text-align: center;
-    font-size: x-large;
-    width: auto;
-}
-
-.parrafo{
-    display: block;
-    align-content: center;
-    text-align: center;
-    justify-content: center;
-}
-
-.boton{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
 
 /*CONTACT*/
 
@@ -219,13 +176,7 @@ div .card{
     transform: translateY(-8px);
 }
   
-.btn{
-    transition-timing-function: ease-in-out;
-  }
-  
-.btn:is(:hover, :focus) {
-    width: 50%;
-}
+
 
 .logo:is(:hover, :focus){
     animation: pulse;
