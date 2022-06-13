@@ -245,6 +245,36 @@ main div .card {
   display: inline-block;
   font-size: x-large;
   text-align: center; }
+  .container div .texto .btn {
+    color: red;
+    font-weight: bold;
+    font-family: 'Gaegu', cursive;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    width: auto;
+    transition-timing-function: ease-in-out; }
+    .container div .texto .btn:is(:hover, :focus) {
+      width: 50%; }
+    @media screen and (min-width: 0px) and (max-width: 460px) {
+      .container div .texto .btn {
+        font-size: medium; } }
+
+.footer2 {
+  padding: 10px 20px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly; }
+  .footer2 .logo {
+    width: 45px;
+    height: 30px; }
+    .footer2 .logo:is(:hover, :focus) {
+      animation: pulse;
+      animation-duration: 2s; }
+  @media screen and (min-width: 0px) and (max-width: 460px) {
+    .footer2 footer {
+      display: none; } }
 
 * {
   padding: 0%;

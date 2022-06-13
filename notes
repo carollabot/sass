@@ -7,11 +7,7 @@
 
 
 /*FOOTER*/
-.redes{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
+
 .redes a .logos{
     padding: 0px 50px 20px 50px;
     width: 25px;
@@ -55,38 +51,10 @@
 
 
 /*FOOTER*/
-.logo{
-    width: 45px;
-    height: 30px;
-}
 
-.footer2{
-    padding: 10px 20px;
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-}
 
 
 /*ANIMATIONS*/
-/*merch*/
-div .card{
-    transition-property: box-shadow, transform;
-    transition-duration: 350ms;
-    transition-timing-function: ease;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
-}
-.card:is(:hover, :focus) {
-    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
-    transform: translateY(-8px);
-}
-  
-
-
-.logo:is(:hover, :focus){
-    animation: pulse;
-    animation-duration: 2s;
-}
 
 /*RESPONSIVE*/
 

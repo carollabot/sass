@@ -1,0 +1,20 @@
+
+.footer2{
+    padding: 10px 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    .logo{
+        width: 45px;
+        height: 30px;
+        &:is(:hover, :focus){
+            animation: pulse;
+            animation-duration: 2s;
+        }
+    }  
+    @media screen and (min-width: 0px) and (max-width: 460px){
+        footer{
+            display: none;
+        }
+    }  
+}
