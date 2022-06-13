@@ -49,39 +49,6 @@
 }
 
 /*MERCH*/
-/*centrar textos*/
-#merch{
-    width: 70%;
-    text-align: center;
-    justify-content: center;
-}
-#merchForm{
-    color: red; 
-    font-weight: bold;
-    font-family: 'Gaegu', cursive;
-    text-align: center;
-    justify-content: center;
-    font-size: xx-large;
-    margin-top: 15px;
-    margin-bottom: 30px;
-}
-.buttonMerch{
-    display: inline;
-    color: red; 
-    font-weight: bold;
-    font-family: 'Gaegu', cursive;
-    text-align: center;
-    font-size: x-large;
-    border: 10px;
-    border-color: red;
-    border-radius: 5px;
-}
-.card-title{
-    font-family: 'Gaegu', cursive;
-    text-align: center;
-    color: red;
-}
-
 
 
 /*CONTACT*/
@@ -110,6 +77,7 @@
 
 
 /*ANIMATIONS*/
+/*merch*/
 div .card{
     transition-property: box-shadow, transform;
     transition-duration: 350ms;
