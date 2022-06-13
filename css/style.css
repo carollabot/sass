@@ -50,6 +50,47 @@ header {
     header .navbar-toggler {
       color: red; } }
 
+main .carrusel {
+  display: flex;
+  align-content: center;
+  justify-content: center; }
+
+main .btn-group {
+  padding: 20px 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  transition-property: width;
+  transition-duration: 2s; }
+
+main .parrafo {
+  display: block;
+  align-content: center;
+  text-align: center;
+  justify-content: center; }
+  main .parrafo li {
+    color: red;
+    font-weight: bold;
+    font-family: 'Gaegu', cursive;
+    display: inline-block;
+    font-size: x-large;
+    text-align: center; }
+  main .parrafo .boton {
+    display: flex;
+    align-content: center;
+    justify-content: center; }
+
+main .btn {
+  color: red;
+  font-weight: bold;
+  font-family: 'Gaegu', cursive;
+  text-align: center;
+  font-size: x-large;
+  width: auto;
+  transition-timing-function: ease-in-out; }
+  main .btn:is(:hover, :focus) {
+    width: 50%; }
+
 * {
   padding: 0%;
   margin: 0%; }
