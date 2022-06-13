@@ -1,7 +1,6 @@
 {
   "name": "idea-llabot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "agent-base": "^6.0.2",
@@ -303,5 +302,6 @@
   "bugs": {
     "url": "https://github.com/carollabot/idea-llabot/issues"
   },
-  "homepage": "https://github.com/carollabot/idea-llabot#readme"
+  "homepage": "https://github.com/carollabot/idea-llabot#readme",
+  "description": ""
 }
