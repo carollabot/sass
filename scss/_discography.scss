@@ -1,0 +1,97 @@
+.mainConteiner{
+    #video{
+        padding: 15px 0px;
+        text-align: center;
+        @media screen and (min-width: 0px) and (max-width: 460px){
+            & iframe{
+                width: 460px;
+                height: 200px;
+            }
+        }
+    }
+    .tracks{
+        text-align: center;
+        align-items: center;
+        align-self: center;
+        @media screen and (min-width: 0px) and (max-width: 460px){
+            display: none;
+        }
+        & li{
+            display: inline-flex;
+            text-align: center;
+            justify-content: space-around;
+            width: 400px;
+            height: 40px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+    .tracksMobile{
+        text-align: center;
+        align-items: center;
+        align-self: center;
+        @media screen and (min-width: 320px) and (max-width: 1440px){
+            &{
+                display: none;
+            }
+        }
+        @media screen and (min-width: 0px) and (max-width: 460px){
+            &{
+                display: inline-block;
+                align-items: center;
+                justify-content: center;
+                width: 460px;
+            }
+            & iframe{
+                padding: 15px 0px;
+            }
+        }
+        & li{
+            display: inline-flex;
+            text-align: center;
+            justify-content: space-around;
+            width: 300px;
+            height: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+    #descarga{
+        text-align: center;
+        @media screen and (min-width: 0px) and (max-width: 460px){
+            &{
+                width: 460px;
+            }
+        }
+        .logo{
+            padding: 0px 10px;
+            width: 35px;
+            height: 35px;
+            text-decoration: none;
+            list-style-type: none;
+            font-size: x-large;
+            @media screen and (min-width: 0px) and (max-width: 460px){
+                &{
+                    height: 25px;
+                    width: 45px;
+                }
+            }
+        }        
+    }
+    .descargar{
+        color: red; 
+        font-weight: bold;
+        padding-top: 20px;
+        font-size: xx-large;
+        font-family: 'Sarpanch', sans-serif;
+        text-align: center;
+        @media screen and (min-width: 0px) and (max-width: 460px){
+            &{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                width: 460px;
+            }
+        }
+    }
+}

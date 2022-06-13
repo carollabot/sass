@@ -24,6 +24,14 @@ main{
             display: inline-block;
             font-size: x-large;
             text-align: center;
+            @media screen and (min-width: 0px) and (max-width: 460px){
+                &{
+                    font-size: medium;
+                    display: block;
+                    align-content: center;
+                    justify-content: center;
+                }
+            }
         }
         & .boton{
             display: flex;
@@ -35,12 +43,19 @@ main{
         color: red; 
         font-weight: bold;
         font-family: 'Gaegu', cursive;
+        display: flex;
+        align-items: center;
         text-align: center;
         font-size: x-large;
         width: auto;
         transition-timing-function: ease-in-out;
         &:is(:hover, :focus) {
             width: 50%;
+        }
+        @media screen and (min-width: 0px) and (max-width: 460px){
+            &{
+                font-size: medium;
+            }
         }
     }
 }

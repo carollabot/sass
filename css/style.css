@@ -75,6 +75,12 @@ main .parrafo {
     display: inline-block;
     font-size: x-large;
     text-align: center; }
+    @media screen and (min-width: 0px) and (max-width: 460px) {
+      main .parrafo li {
+        font-size: medium;
+        display: block;
+        align-content: center;
+        justify-content: center; } }
   main .parrafo .boton {
     display: flex;
     align-content: center;
@@ -84,12 +90,96 @@ main .btn {
   color: red;
   font-weight: bold;
   font-family: 'Gaegu', cursive;
+  display: flex;
+  align-items: center;
   text-align: center;
   font-size: x-large;
   width: auto;
   transition-timing-function: ease-in-out; }
   main .btn:is(:hover, :focus) {
     width: 50%; }
+  @media screen and (min-width: 0px) and (max-width: 460px) {
+    main .btn {
+      font-size: medium; } }
+
+.mainConteiner #video {
+  padding: 15px 0px;
+  text-align: center; }
+  @media screen and (min-width: 0px) and (max-width: 460px) {
+    .mainConteiner #video iframe {
+      width: 460px;
+      height: 200px; } }
+
+.mainConteiner .tracks {
+  text-align: center;
+  align-items: center;
+  align-self: center; }
+  @media screen and (min-width: 0px) and (max-width: 460px) {
+    .mainConteiner .tracks {
+      display: none; } }
+  .mainConteiner .tracks li {
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 40px;
+    padding-left: 50px;
+    padding-right: 50px; }
+
+.mainConteiner .tracksMobile {
+  text-align: center;
+  align-items: center;
+  align-self: center; }
+  @media screen and (min-width: 320px) and (max-width: 1440px) {
+    .mainConteiner .tracksMobile {
+      display: none; } }
+  @media screen and (min-width: 0px) and (max-width: 460px) {
+    .mainConteiner .tracksMobile {
+      display: inline-block;
+      align-items: center;
+      justify-content: center;
+      width: 460px; }
+    .mainConteiner .tracksMobile iframe {
+      padding: 15px 0px; } }
+  .mainConteiner .tracksMobile li {
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 30px;
+    padding-left: 50px;
+    padding-right: 50px; }
+
+.mainConteiner #descarga {
+  text-align: center; }
+  @media screen and (min-width: 0px) and (max-width: 460px) {
+    .mainConteiner #descarga {
+      width: 460px; } }
+  .mainConteiner #descarga .logo {
+    padding: 0px 10px;
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: x-large; }
+    @media screen and (min-width: 0px) and (max-width: 460px) {
+      .mainConteiner #descarga .logo {
+        height: 25px;
+        width: 45px; } }
+
+.mainConteiner .descargar {
+  color: red;
+  font-weight: bold;
+  padding-top: 20px;
+  font-size: xx-large;
+  font-family: 'Sarpanch', sans-serif;
+  text-align: center; }
+  @media screen and (min-width: 0px) and (max-width: 460px) {
+    .mainConteiner .descargar {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 460px; } }
 
 * {
   padding: 0%;
