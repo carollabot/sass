@@ -3,8 +3,14 @@
     margin: 0%;
     @media screen and (min-width: 0px) and (max-width: 460px){
         &{
-            background-color: black;
             overflow-x: hidden;
+        }
+    }
+}
+body{
+    @media screen and (min-width: 0px) and (max-width: 460px){
+        &{
+            background-color: black;
         }
     }
 }
