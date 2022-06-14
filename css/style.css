@@ -100,7 +100,10 @@ main .btn {
     width: 50%; }
   @media screen and (min-width: 0px) and (max-width: 460px) {
     main .btn {
-      font-size: medium; } }
+      font-size: medium;
+      display: flex;
+      align-content: center;
+      justify-content: center; } }
 
 .mainConteiner #video {
   padding: 15px 0px;
@@ -109,6 +112,14 @@ main .btn {
     .mainConteiner #video iframe {
       width: 460px;
       height: 200px; } }
+
+@media screen and (min-width: 0px) and (max-width: 460px) {
+  .mainConteiner .titulosExtra {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px; } }
 
 .mainConteiner .tracks {
   text-align: center;

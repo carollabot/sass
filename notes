@@ -39,13 +39,7 @@
  
     /*disc*/
 
-    .titulosExtra{
-        margin-top: 70px;
-        display: flex;
-        justify-content: center;
-        text-align: center; 
-        font-size: 40px;
-    }
+
     .titulosExtra2{
         margin-top: 40px;
         display: flex;
