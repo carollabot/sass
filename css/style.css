@@ -157,7 +157,7 @@ main .btn {
       width: 460px; } }
   .mainConteiner #descarga .logo {
     padding: 0px 10px;
-    width: 35px;
+    width: 40px;
     height: 25px;
     text-decoration: none;
     list-style-type: none;
@@ -275,6 +275,34 @@ main div .card {
   @media screen and (min-width: 0px) and (max-width: 460px) {
     .footer2 footer {
       display: none; } }
+
+* {
+  padding: 0%;
+  margin: 0%; }
+  @media screen and (min-width: 0px) and (max-width: 460px) {
+    * {
+      background-color: black;
+      overflow-x: hidden; } }
+
+.titulosExtra, .titulosExtra2 {
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: red;
+  margin-top: 15px; }
+  @media screen and (min-width: 0px) and (max-width: 460px) {
+    .titulosExtra .titulosExtra, .titulosExtra2 .titulosExtra {
+      margin-top: 70px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 40px; }
+    .titulosExtra .titulosExtra2, .titulosExtra2 .titulosExtra2 {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 30px; } }
 
 * {
   padding: 0%;
