@@ -1,9 +1,9 @@
 
 .footer2{
-    padding: 10px 20px;
+    @extend header;
     display: flex;
-    text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-bottom: 10px;
     .logo{
         width: 35px;
         height: 30px;

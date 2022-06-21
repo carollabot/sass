@@ -1,18 +1,15 @@
 .container div .texto{
     color: red; 
     font-weight: bold;
-    font-family: 'Gaegu', cursive;
+    @include fonts($text, $xl);
     display: inline-block;
-    font-size: x-large;
     text-align: center;
     .btn{
         color: red; 
         font-weight: bold;
-        font-family: 'Gaegu', cursive;
+        @include fonts($text, $xl);
         display: flex;
-        align-items: center;
-        text-align: center;
-        font-size: x-large;
+        @include center;
         width: auto;
         transition-timing-function: ease-in-out;
         &:is(:hover, :focus) {

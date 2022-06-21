@@ -1,31 +1,25 @@
 main{
     #merch{
         width: 70%;
-        text-align: center;
-        justify-content: center;
+        @include center;
         #merchForm{
-            color: red; 
+            @include fonts($text, $xxl);
+            color: red;
             font-weight: bold;
-            font-family: 'Gaegu', cursive;
-            text-align: center;
-            justify-content: center;
-            font-size: xx-large;
+            @include center;
             margin-top: 15px;
             margin-bottom: 30px;
             @media screen and (min-width: 0px) and (max-width: 460px){
                 font-size: medium;
                 display: inline-flex;
-                justify-content: center;
-                text-align: center;
-                align-items: center;
+                @include center;
             }
             .buttonMerch{
                 display: inline;
                 color: red; 
                 font-weight: bold;
-                font-family: 'Gaegu', cursive;
+                @include fonts($text, $xl);
                 text-align: center;
-                font-size: x-large;
                 border: 10px;
                 border-color: red;
                 border-radius: 5px;
@@ -48,7 +42,7 @@ main{
             width: 75%;
         }
         .card-title{
-            font-family: 'Gaegu', cursive;
+            font-family: $text;
             text-align: center;
             color: red;
         }
@@ -56,9 +50,7 @@ main{
     .col{
         @media screen and (min-width: 0px) and (max-width: 460px){
             display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
+            @include center;
         }
     }
 }

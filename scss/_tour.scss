@@ -1,52 +1,43 @@
 main{
     .carrusel{
         display: flex;
-        align-content: center;
-        justify-content: center;
+        @include center;
     }
     .btn-group{
         padding: 20px 0px;
         display: flex;
-        align-content: center;
-        justify-content: center;
+        @include center;
         transition-property: width;
         transition-duration: 2s;
     }
     .parrafo{
         display: block;
-        align-content: center;
-        text-align: center;
-        justify-content: center;
+        @include center;
         & li{
             color: red; 
             font-weight: bold;
-            font-family: 'Gaegu', cursive;
+            @include fonts($text, $xl);
             display: inline-block;
-            font-size: x-large;
             text-align: center;
             @media screen and (min-width: 0px) and (max-width: 460px){
                 &{
                     font-size: medium;
                     display: block;
-                    align-content: center;
-                    justify-content: center;
+                    @include center;
                 }
             }
         }
         & .boton{
             display: flex;
-            align-content: center;
-            justify-content: center;
+            @include center;
         }
     }
     .btn{
         color: red; 
         font-weight: bold;
-        font-family: 'Gaegu', cursive;
+        @include fonts($text, $xl);
         display: flex;
-        align-items: center;
-        text-align: center;
-        font-size: x-large;
+        @include center;
         width: auto;
         transition-timing-function: ease-in-out;
         &:is(:hover, :focus) {
@@ -56,8 +47,7 @@ main{
             &{
                 font-size: medium;
                 display: flex;
-                align-content: center;
-                justify-content: center;
+                @include center;
             }
         }
     }

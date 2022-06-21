@@ -1,0 +1,17 @@
+@mixin fonts($tipo, $size) {
+    font-family: $tipo;
+    font-size: $size;
+ }
+
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin center {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+}
