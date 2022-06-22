@@ -71,6 +71,15 @@ main .btn-group {
   align-self: center;
   transition-property: width;
   transition-duration: 2s; }
+  main .btn-group .dropdown-menu {
+    width: 100%; }
+    main .btn-group .dropdown-menu li a {
+      display: block;
+      text-align: center;
+      color: red;
+      font-weight: bold;
+      font-family: "Gaegu", cursive;
+      font-size: x-large; }
 
 main .parrafo {
   display: block;
@@ -95,13 +104,14 @@ main .parrafo {
         align-content: center;
         text-align: center;
         align-self: center; } }
-  main .parrafo .boton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    align-self: center; }
+
+main .boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  align-self: center; }
 
 main .btn {
   color: red;
@@ -182,9 +192,18 @@ main .btn {
       align-content: center;
       text-align: center;
       align-self: center;
-      width: 460px; }
+      width: 460px;
+      height: 100%; }
     .mainConteiner .tracksMobile iframe {
-      padding: 15px 0px; } }
+      padding: 15px 0px;
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      align-self: center;
+      width: 460px;
+      height: 100%; } }
   .mainConteiner .tracksMobile li {
     display: inline-flex;
     text-align: center;
@@ -199,6 +218,10 @@ main .btn {
   @media screen and (min-width: 0px) and (max-width: 460px) {
     .mainConteiner #descarga {
       width: 460px; } }
+  .mainConteiner #descarga a {
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 0 40px; }
   .mainConteiner #descarga .logo {
     padding: 0px 10px;
     width: 40px;
@@ -302,24 +325,25 @@ main div .card {
   font-size: x-large;
   display: inline-block;
   text-align: center; }
-  .container div .texto .btn {
-    color: red;
-    font-weight: bold;
-    font-family: "Gaegu", cursive;
-    font-size: x-large;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    align-self: center;
-    width: auto;
-    transition-timing-function: ease-in-out; }
-    .container div .texto .btn:is(:hover, :focus) {
-      width: 50%; }
-    @media screen and (min-width: 0px) and (max-width: 460px) {
-      .container div .texto .btn {
-        font-size: medium; } }
+
+.container div .btn {
+  color: red;
+  font-weight: bold;
+  font-family: "Gaegu", cursive;
+  font-size: x-large;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  align-self: center;
+  width: auto;
+  transition-timing-function: ease-in-out; }
+  .container div .btn:is(:hover, :focus) {
+    width: 50%; }
+  @media screen and (min-width: 0px) and (max-width: 460px) {
+    .container div .btn {
+      font-size: medium; } }
 
 .footer2 {
   display: flex;

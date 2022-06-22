@@ -1,14 +1,16 @@
-.container div .texto{
-    color: red; 
-    font-weight: bold;
-    @include fonts($text, $xl);
-    display: inline-block;
-    text-align: center;
+.container div{
+    .texto{
+        color: red; 
+        font-weight: bold;
+        @include fonts($text, $xl);
+        display: inline-block;
+        text-align: center;
+    }
     .btn{
         color: red; 
         font-weight: bold;
         @include fonts($text, $xl);
-        display: flex;
+        display: inline-flex;
         @include center;
         width: auto;
         transition-timing-function: ease-in-out;
