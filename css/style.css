@@ -44,14 +44,12 @@ header, .footer2 {
   @media screen and (min-width: 0px) and (max-width: 460px) {
     header .navbar, .footer2 .navbar {
       visibility: visible; }
-    header .nav-link, .footer2 .nav-link {
-      font-size: x-large;
-      font-weight: bold;
-      color: red; }
+      header .navbar .nav-link, .footer2 .navbar .nav-link {
+        font-size: x-large;
+        font-weight: bold;
+        color: red; }
     header .menu, .footer2 .menu {
-      display: none; }
-    header .navbar-toggler, .footer2 .navbar-toggler {
-      color: red; } }
+      display: none; } }
 
 main .carrusel {
   display: flex;
